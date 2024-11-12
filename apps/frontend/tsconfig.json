@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["vite/client", "vitest", "react", "react-dom"],
+    "baseUrl": "./src"
+  },
+  "include": ["src/**/*"],
+  "extends": "../../tsconfig.base.json"
+}
